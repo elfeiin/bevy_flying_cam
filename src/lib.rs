@@ -11,6 +11,7 @@ use std::ops::{Div, Mul, Neg};
 pub enum FlyingCamAction {
    AdjustSpeed,
    Back,
+   ClickHoldSecondary,
    Down,
    Focus,
    Forward,
